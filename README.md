@@ -6,7 +6,7 @@ This uses PageDown for the conversion and sanitisation of the Markdown to HTML (
 
 This uses Bootstrap-Markdown (http://toopay.github.io/bootstrap-markdown/) for the editor. The preview button has been disabled, to allow live-preview. 
 
-Currently, the pagedown and and bootstrap-markdown libraries are included, but will be replaced with Bower in a later version.
+Currently, the pagedown and bootstrap-markdown libraries are included, but will be replaced with Bower in a later version.
 
 Usage is pretty trivial. It requires
 
