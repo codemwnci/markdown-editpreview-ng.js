@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html ng-app="pdngdemo">
+  <head>
+	<title>Markdown Sample - Using Pagedown</title>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<script src="lib/codemwnci/Markdown.Converter.js"></script>
+	<script src="lib/codemwnci/Markdown.Sanitizer.js"></script>
+	<script src="lib/codemwnci/bootstrap-markdown.js"></script>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" href="lib/codemwnci/bootstrap-markdown.min.css">
+
+
+	<script src="lib/codemwnci/markdown-editpreview-ng.js"></script>
+
+
+	<script>
+		// test controller
+		angular.module('pdngdemo', ['codemwnci.markdown-edit-preview'])
+  		.controller('MyController', ['$scope', function($scope) {
+    		$scope.textarea = '**Welcome, I am some Bold Markdown text**';
+    		$scope.liveedit = 'I am *ready* to be edited!';
+  		}]);
+
+	</script>
+  </head>
+  <body ng-controller="MyController">
+
+  	<h1>Markdown Render Example</h1>
+  	<markdown bind-from="textarea"></markdown>
+
+  	<hr />
+
+  	<h1>Markdown Live Edit / Preview Example</h1>
+  	<textarea ng-model="liveedit" markdownedit></textarea>
+	<markdown bind-from="liveedit"></markdown>  		
+
+  </body>
+</html>
+	
