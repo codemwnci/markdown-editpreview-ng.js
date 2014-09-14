@@ -29,3 +29,19 @@ The first example turns a normal textarea, which is bound to the `mydata` angula
 The second example show how you can just do a preview of markdown data already available. So, not Live Preview this time, but a Markdown render. It displays the rendered markdown that is stored in a scope variable called `myMD`
 
     <markdown bind-from='myMD'></markdown>
+
+Further customisation of the editor is also possible. To change which buttons are hidden, it is possible to pass in a list of buttons names to the `markdown-hidden-buttons` attribute. Example three shows the removal of the Code and Quote buttons.
+
+  	<textarea ng-model="mydata" markdownedit markdown-hidden-buttons="cmdCode,cmdQuote"></textarea>
+	<markdown bind-from="mydata"></markdown>  		
+
+The name of the buttons are as follows
+- Bold = cmdBold 
+- Italic = cmdItalic
+- Heading = cmdHeading
+- URL/Link = cmdUrl
+- Image = cmdImage
+- Unordered List = cmdList
+- Ordered List = cmdList0
+- Code = cmdCode
+- Quote = cmdQuote
