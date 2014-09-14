@@ -10,8 +10,9 @@ Currently, the pagedown and bootstrap-markdown libraries are included, but will 
 
 Usage is pretty trivial. It requires
 
+- Add the dependency to the ['codemwnci.markdown-edit-preview'] module
 - Angular JS (obviously)
-- JQuery (for the editor to work)
+- JQuery (for the editor to work)  **note: this must be defined first in the script list for the buttons to display**
 - Pagedown (the Markdown previewer used by StackExchange, and many other sites)
 - Bootstrap-Markdown
 - Bootstrap 3 css (for the markdown editor to work)
