@@ -8,7 +8,7 @@
   "description": "Markdwon editor and live preview as an angularJS directive",
   "main": ["lib/codemwnci/bootstrap-markdown.js", 
            "lib/codemwnci/bootstrap-markdown.min.css", 
-           "lib/codemwnci/markdown-editpreview-ng.js, 
+           "lib/codemwnci/markdown-editpreview-ng.js", 
            "lib/codemwnci/Markdown.Converter.js", 
            "lib/codemwnci/Markdown.Sanitizer.js"
   ],
