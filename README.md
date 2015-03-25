@@ -45,3 +45,4 @@ The name of the buttons are as follows
 - Ordered List = cmdList0
 - Code = cmdCode
 - Quote = cmdQuote
+- Equation = cmdEquation
