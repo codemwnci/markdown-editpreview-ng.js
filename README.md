@@ -30,7 +30,7 @@ The second example show how you can just do a preview of markdown data already a
 
     <markdown bind-from='myMD'></markdown>
 
-Further customisation of the editor is also possible. To change which buttons are hidden, it is possible to pass in a list of buttons names to the `markdown-hidden-buttons` attribute. Example three shows the removal of the Code and Quote buttons.
+Further customisation of the editor is also possible. To change which buttons are hidden, it is possible to pass in a list of button names to the `markdown-hidden-buttons` attribute. Example three shows the removal of the Code and Quote buttons.
 
   	<textarea ng-model="mydata" markdownedit markdown-hidden-buttons="cmdCode,cmdQuote"></textarea>
 	<markdown bind-from="mydata"></markdown>  		
