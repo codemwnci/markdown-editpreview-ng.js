@@ -1,0 +1,19 @@
+{
+  "name": "markdown-editpreview-ng.js",
+  "version": "1.0.0-rc3",
+  "authors": [
+    "Wayne Ellis (wayne@wayneellis.co.uk)"
+  ],
+  "description": "Markdwon editor and live preview as an angularJS directive",
+  "main": "lib/codemwnci/bootstrap-markdown.js",
+  "keywords": [
+    "AngularJS",
+    "Markdown",
+    "Editor"
+  ],
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/codemwnci/markdown-editpreview-ng.js.git"
+  }
+}
